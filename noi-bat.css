@@ -1,0 +1,66 @@
+.bgr-header {
+  padding: 10px 0;
+  margin: 0;
+  background-image: url(./assets/img/br-bg.png);
+  padding-top: 150px;
+  text-align: center;
+  padding-bottom: 80px;
+  background-position: 50% 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.aside-item {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+}
+
+.aside-title {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+  padding-right: 25px;
+  text-transform: capitalize;
+}
+
+.aside-content {
+  letter-spacing: 0.25px;
+  line-height: 1.7;
+}
+
+.colection-category > .aside-content > li {
+  font-size: 14px;
+  padding-left: 0px;
+  padding-right: 25px;
+  color: #1c1c1c;
+  white-space: normal;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.aside-content > li {
+  font-size: 13px;
+  color: #797979;
+  cursor: pointer;
+}
+
+.aside-content > li:hover {
+  color: #ddac55;
+}
+
+.list-sort {
+  display: flex;
+}
+
+.list-sort > li {
+  margin-right: 12px;
+}
